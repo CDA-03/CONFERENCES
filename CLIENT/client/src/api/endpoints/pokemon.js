@@ -13,3 +13,4 @@ apiSlice.injectEndpoints({
 
 // on export la fonction qui va nous permettre de récupérer les données de l'api dans les composants, c'est une convention de nommage use + GetPokemonByName + Query (CamelCase)
 export const { useGetPokemonByNameQuery } = apiSlice
+
